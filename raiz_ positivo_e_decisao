@@ -3,14 +3,14 @@
 #include <locale.h>
 
 int main(){
-int num1,raiz;
+float num1,raiz;
 
     printf("insira o numero positivo ? \n");
-    scanf("%d", &num1);
+    scanf("%f", &num1);
 
         if(num1>0){
-            raiz= num1*num1;
-            printf("A raiz do numero Positivo é ...: %d \n",raiz);
+            raiz= sqrt(num1);
+            printf("A raiz do numero Positivo é ...: %f \n",raiz);
         }else {
             printf ("Esse Numero é invalido");
         }
