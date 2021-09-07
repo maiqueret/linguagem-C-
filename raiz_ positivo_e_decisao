@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include <locale.h>
+
+int main(){
+int num1,raiz;
+
+    printf("insira o numero positivo ? \n");
+    scanf("%d", &num1);
+
+        if(num1>0){
+            raiz= num1*num1;
+            printf("A raiz do numero Positivo é ...: %d \n",raiz);
+        }else {
+            printf ("Esse Numero é invalido");
+        }
+    
+
+
+    return 0;
+}
