@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include <locale.h>
+
+int main(){
+float nota1,nota2, calc;
+
+
+    printf("insira duas notas...: \n");
+    scanf("%f %f", &nota1, &nota2);
+
+        if((nota1<=10.0) &&(nota2<=10.0))
+        {
+            printf("notas  %f %f", nota1,nota2);
+        }else if((nota2)&& (nota1)>10.0) {
+            printf("notas invalida");
+        }
+    
+        
+        
+return 0;
+}
