@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+int main(){
+
+float salario, parcela,porcentagem;
+
+printf(" Qual salario do Trabalhador? \n");
+scanf("%f",&salario);
+
+    printf("Qual o valor da parcela ?\n");
+    scanf("%f",&parcela);
+
+            porcentagem = salario * 20 / 100;
+                if (porcentagem < parcela){
+                    printf ("emprestimo nao concedido");
+                }else{
+                    printf(" emprestimo concedido");
+                }
+
+        
+    return 0;
+}
