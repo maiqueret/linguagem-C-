@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+char s, calc;
+float altura;
+
+printf("informe o sexo com M ou H \n");
+scanf("%c",&s);
+
+    printf("informe a altura \n");
+    scanf("%f",&altura);
+
+        if(s=='m')
+        {
+        
+            printf("Seu Peso Ideal...:  %.3f \n",(altura * 62.1)-44);
+        }
+        else if(s=='h')
+        {
+            
+            printf("Seu Peso Ideal...: %.3f \n",(altura * 72.7)-58);
+        }
+        else
+        {
+            printf(" Sexo Invalido \n");
+        }
+
+
+system("pause");
+    return 0;
+}
