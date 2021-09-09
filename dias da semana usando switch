@@ -1,0 +1,43 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+int n;
+
+printf("Informe o dia ");
+scanf("%d",&n);
+
+switch (n)
+{
+case 1:
+    printf("\nDomingo");
+    break;
+case 2:
+    printf("\n Segunda");
+    break;
+case 3:
+    printf("\n Terça");
+    break;
+case 4:
+    printf("\n Quarta Feira");
+    break;
+case 5: 
+    printf("\n Quinta");
+    break;
+case 6:
+    printf("\n Sexta Feira");
+    break;
+case 7:
+    printf("\nSabado");
+    break;
+default:
+printf("\n Opcao invalida");
+    break;
+}
+
+
+
+system("pause");
+    return 0;
+}
