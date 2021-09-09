@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+
+float base, base1;
+float a;
+float altura;
+
+    printf(" iNFORME AS DUAS BASE DO TRAPEZIO\n");
+    scanf("%f %f", &base,&base1);
+
+        printf("informe a altura do trapezio\n");
+        scanf("%f",&altura);
+
+            a=(base+base1)*altura/2;
+
+            printf("A area do trapezio e %.2f",a);
+
+
+    return 0;
+}
