@@ -1,0 +1,79 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+
+int opcao,num,num1, calc;
+
+    printf("<<<<<<<<<<<ESCOLHA UMA OPCAO>>>>>>>>>>>\n");
+
+printf ("1-Soma de dois Numeros\n");
+printf("2-Diferenca entre os dois numeros\n");
+printf("3-produto entre 2 numeros\n");
+printf("4- Divisao entre dois numeros (denominador nao pode ser 0)\n");
+scanf("%d",&opcao);
+
+switch (opcao)
+{
+case 1:
+printf("<<<<<SOMA>>>>\n");
+
+    printf("insira o primeiro numero\n");
+    scanf("%d",&num);
+
+        printf("insira o segundo numero \n");
+        scanf("%d",&num1);
+
+            calc = num + num1;
+
+            printf("O resultado da soma dos numero eh >>: %d ",calc);
+system("pause");
+    break;
+case 2:
+printf("<<<<Diferenca entre dois numeros>>>>\n");
+
+    printf("insira o primeiro numero\n");
+    scanf("%d",&num);
+
+        printf("insira o segundo numero \n");
+        scanf("%d",&num1);
+         calc=num-num1;
+            printf("A diferenca entre os dois numeros eh...:%d",calc);
+system("pause");
+    break;
+
+case 3:
+printf("insira o primeiro numero\n");
+    scanf("%d",&num);
+
+        printf("insira o segundo numero \n");
+        scanf("%d",&num1);
+
+        calc= num*num1;
+            printf("o resultado eh...:%d\n",calc);
+
+system("pause");
+      break;
+
+case 4:
+printf("<<<<<Divisao>>>>>>>\n");
+
+printf("insira o primeiro numero\n");
+    scanf("%d",&num);
+
+        printf("insira o Denominador \n");
+        scanf("%d",&num1);
+
+        calc=num/num1;
+                printf("A divisao entre os dois numero eh...: %d\n",calc);
+
+system("pause");
+        break;
+default:
+printf("Opcao invalida\n");
+    break;
+}
+            
+
+    return 0;
+}
