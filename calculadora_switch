@@ -1,0 +1,60 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+    char operacao;
+    int s,m,d,n;
+    int num1, num2;
+
+    printf("\n>>>>>>>>Calculadora<<<<<<<<<<<<<<<<\n ");
+    printf("insira qual operacao deseja fazer com + - * / \n");
+    scanf("%c",&operacao);
+
+    switch (operacao)
+    {
+    case '+':
+        printf(" Digite o primeiro numero\n");
+        scanf("%d",&num1);
+            printf("Digite o segundo numero\n");
+            scanf("%d",&num2);
+                    s=num1+num2;
+    printf("A Soma dos dois numeros eh...:  %d \n",s);
+        
+        break;
+    case '-':
+
+        printf("Digite o Primeiro numero\n");
+        scanf("%d",&num1);
+            printf("Digite o segundo Numero\n");
+            scanf("%d",&num2);
+                n=num1-num2;
+                    printf("A Subtração dos dois Numeros eh...: %d",n);
+
+                        break;
+    case '*':
+    printf("Digite o Primeiro numero\n");
+        scanf("%d",&num1);
+            printf("Digite o segundo Numero\n");
+            scanf("%d",&num2);
+                m=num1*num2;
+                    printf("A mutiplicacao dos Numeros eh...: %d",m);
+
+     break;
+    
+    case '/':
+    
+    printf("Digite o Primeiro numero\n");
+        scanf("%d",&num1);
+            printf("Digite o segundo Numero\n");
+            scanf("%d",&num2);
+                d=num1/num2;
+                    printf("a divisao dos dois numeros eh...: %d",d);
+    break;
+
+    default:
+    printf(" invalida \n");
+        break;
+    }
+    
+return 0;
+}
