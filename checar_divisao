@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+
+int num;
+
+printf("insira o numero para ver se e divisivel por 3 ou 5\n");
+scanf("%d",&num);
+
+if (num % 3 == 0)
+{
+    printf(" E divisivel por 3 \n");
+}
+
+ if (num % 5== 0)
+{
+    printf("E Divisivel por 5\n");
+}
+else if ((num % 3 == 0)&& ( num % 5==0 ) )
+{
+    printf ("E Divisivel Por 3 \n");
+    printf("E Divisivel por 5\n");
+}
+else{
+    printf("Nao e Divisivel\n");
+}
+
+
+    return 0;
+}
